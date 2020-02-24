@@ -7,8 +7,10 @@
 
 import Foundation
 import UIKit
+import NVActivityIndicatorView
 
 public class FDBaseView : UIView {
+        
     public class func showActivityIndicatorView() {
         
     }
