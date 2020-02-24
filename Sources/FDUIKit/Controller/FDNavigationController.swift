@@ -8,6 +8,6 @@
 import Foundation
 import UIKit
 
-public class FDTabBarController : UINavigationController {
+public class FDNavigationController : UINavigationController {
     
 }

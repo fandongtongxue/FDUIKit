@@ -20,7 +20,6 @@ let package = Package(
         .package(url: "https://github.com/SnapKit/SnapKit.git", from: "5.0.0"),
         .package(url: "https://github.com/onevcat/Kingfisher.git", from: "5.0.0"),
         .package(url: "https://github.com/ninjaprox/NVActivityIndicatorView.git", from: "4.8.0"),
-        .package(url: "https://github.com/ivanvorobei/SPPermissions.git", from: "5.0.0"),
         
     ],
     targets: [
@@ -29,7 +28,7 @@ let package = Package(
         .target(
             name: "FDUIKit",
             dependencies: [
-            "SnapKit","Kingfisher","NVActivityIndicatorView","SPPermissions",
+            "SnapKit","Kingfisher","NVActivityIndicatorView",
         ]),
         .testTarget(
             name: "FDUIKitTests",
