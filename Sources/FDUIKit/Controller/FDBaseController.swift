@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-import SPPermissions
 
 public class FDBaseController : UIViewController {
     public override func viewDidLoad() {
