@@ -19,8 +19,6 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/SnapKit/SnapKit.git", from: "5.0.0"),
         .package(url: "https://github.com/onevcat/Kingfisher.git", from: "5.0.0"),
-        .package(url: "https://github.com/airbnb/lottie-ios.git", from: "3.1.2"),
-        .package(url: "https://github.com/Ramotion/animated-tab-bar.git", from: "5.0.0"),
         .package(url: "https://github.com/ninjaprox/NVActivityIndicatorView.git", from: "4.8.0"),
         .package(url: "https://github.com/ivanvorobei/SPPermissions.git", from: "5.0.0"),
         
@@ -31,7 +29,7 @@ let package = Package(
         .target(
             name: "FDUIKit",
             dependencies: [
-            "SnapKit","Kingfisher","Lottie","RAMAnimatedTabBarController","NVActivityIndicatorView","SPPermissions",
+            "SnapKit","Kingfisher","NVActivityIndicatorView","SPPermissions",
         ]),
         .testTarget(
             name: "FDUIKitTests",

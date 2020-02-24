@@ -8,6 +8,8 @@
 import Foundation
 import UIKit
 
-private class FDBaseView : UIView {
-    
+public class FDBaseView : UIView {
+    public class func showActivityIndicatorView() {
+        
+    }
 }

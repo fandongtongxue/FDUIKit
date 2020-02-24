@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-private class FDBaseController : UIViewController {
+public class FDBaseController : UIViewController {
     override func viewDidLoad() {
         
     }
