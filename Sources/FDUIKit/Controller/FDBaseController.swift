@@ -9,7 +9,5 @@ import Foundation
 import UIKit
 
 public class FDBaseController : UIViewController {
-    public override func viewDidLoad() {
-        
-    }
+    
 }

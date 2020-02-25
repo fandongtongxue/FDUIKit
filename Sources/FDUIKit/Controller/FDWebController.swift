@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import WebKit
 
-public class FDWebController : UINavigationController {
+public class FDWebController : FDBaseController {
     
     public let url : URL
     

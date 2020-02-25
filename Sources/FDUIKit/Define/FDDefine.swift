@@ -8,6 +8,6 @@
 import Foundation
 import UIKit
 
-public let FDScreenWidth = UIScreen.main.bounds.size.width;
-public let FDScreenHeight = UIScreen.main.bounds.size.height;
+public let FD_ScreenWidth = UIScreen.main.bounds.size.width;
+public let FD_ScreenHeight = UIScreen.main.bounds.size.height;
 
