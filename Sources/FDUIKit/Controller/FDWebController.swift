@@ -11,16 +11,12 @@ import WebKit
 
 public class FDWebController : FDBaseController {
     
-    public let url : URL
+    open var url: String = ""
     
-    init(url : URL) {
-        self.url = url;
-    }
-    
-    public override func viewDidLoad() {
+    override func viewDidLoad() {
         let config = WKWebViewConfiguration.init()
         let webView = WKWebView.init(frame: view.bounds, configuration: config)
-        webView.load(URLRequest.init(url: url))
+        webView.load(URLRequest.init(url: URL.init(string: url)))
         view.addSubview(webView)
     }
 }
