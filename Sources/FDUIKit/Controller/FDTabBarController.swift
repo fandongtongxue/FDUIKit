@@ -8,6 +8,6 @@
 import Foundation
 import UIKit
 
-public class FDTabBarController : UITabBarController {
+open public class FDTabBarController : UITabBarController {
     
 }

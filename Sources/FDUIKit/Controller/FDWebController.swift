@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import WebKit
 
-public class FDWebController : FDBaseController {
+open public class FDWebController : FDBaseController {
     
     open var url: String = ""
     

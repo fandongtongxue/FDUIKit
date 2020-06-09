@@ -8,6 +8,6 @@
 import Foundation
 import UIKit
 
-public class FDBaseController : UIViewController {
+open public class FDBaseController : UIViewController {
     
 }
