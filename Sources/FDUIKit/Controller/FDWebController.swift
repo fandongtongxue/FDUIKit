@@ -15,8 +15,8 @@ public class FDWebController : FDBaseController {
     
     public override func viewDidLoad() {
         let webView = loadWebView
-        webView.load(URLRequest.init(url: URL.init(string: url)!))
-        view.addSubview(webView)
+        webView().load(URLRequest.init(url: URL.init(string: url)!))
+        view.addSubview(webView())
     }
     
     private func loadWebView() -> WKWebView {
