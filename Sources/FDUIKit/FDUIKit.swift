@@ -9,6 +9,6 @@ public class FDUIKit : NSObject{
     }
     
     public class func getBuildVersion() -> String {
-        return "20200223"
+        return "20200606"
     }
 }
