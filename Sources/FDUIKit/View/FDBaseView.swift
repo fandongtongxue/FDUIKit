@@ -8,6 +8,6 @@
 import Foundation
 import UIKit
 
-open public class FDBaseView : UIView {
+public class FDBaseView : UIView {
     
 }

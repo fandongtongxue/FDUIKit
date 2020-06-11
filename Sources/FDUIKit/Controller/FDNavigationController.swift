@@ -8,6 +8,6 @@
 import Foundation
 import UIKit
 
-open public class FDNavigationController : UINavigationController {
+public class FDNavigationController : UINavigationController {
     
 }
