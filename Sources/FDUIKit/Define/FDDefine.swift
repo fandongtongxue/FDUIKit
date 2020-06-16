@@ -13,5 +13,5 @@ public let FD_ScreenHeight = UIScreen.main.bounds.size.height;
 public let FD_NavigationHeight = CGFloat(44);
 public let FD_StatusBarHeight = UIApplication.shared.statusBarFrame.size.height;
 public let FD_TopHeight = FD_StatusBarHeight + FD_NavigationHeight;
-public let FD_TabBarHeight = 49 + (FD_StatusBarHeight > 20 ? 34 : 0);
-public let FD_SafeAreaBottomHeight = FD_StatusBarHeight > 20 ? 34 : 0;
+public let FD_TabBarHeight = CGFloat(49 + (FD_StatusBarHeight > 20 ? 34 : 0));
+public let FD_SafeAreaBottomHeight = CGFloat(FD_StatusBarHeight > 20 ? 34 : 0);
