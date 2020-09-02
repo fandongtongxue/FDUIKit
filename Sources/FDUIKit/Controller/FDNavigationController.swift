@@ -2,7 +2,7 @@
 //  FDNavigationController.swift
 //  FDUIKit
 //
-//  Created by bogokj on 2020/2/24.
+//  Created by fandongtongxue on 2020/2/24.
 //
 
 import Foundation
