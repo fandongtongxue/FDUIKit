@@ -16,7 +16,7 @@ open class FDPopView: UIView {
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
-        self.frame.origin.y = FDLiveKit_Screen_Height
+        self.frame.origin.y = FD_ScreenHeight
     }
     
     required public init?(coder: NSCoder) {
@@ -48,7 +48,7 @@ open class FDPopView: UIView {
     }
     
     lazy var shadowView: UIView = {
-        let view = UIView.init(frame: CGRect.init(x: 0, y: 0, width: FDLiveKit_Screen_Width, height: FDLiveKit_Screen_Height))
+        let view = UIView.init(frame: CGRect.init(x: 0, y: 0, width: FD_ScreenWidth, height: FD_ScreenHeight))
         view.backgroundColor = UIColor.black.withAlphaComponent(0.05)
         view.isUserInteractionEnabled = true
         let tap = UITapGestureRecognizer.init(target: self, action: #selector(FDPopView.hide))
