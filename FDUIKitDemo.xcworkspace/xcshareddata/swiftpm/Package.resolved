@@ -6,26 +6,8 @@
         "repositoryURL": "https://github.com/fandongtongxue/FDUIKit.git",
         "state": {
           "branch": "master",
-          "revision": "3857a7d091cf2f60279095f3404d978fb949fd74",
+          "revision": "6e93048384d3685f2e3fc3f7f83e8fb26671dbef",
           "version": null
-        }
-      },
-      {
-        "package": "Kingfisher",
-        "repositoryURL": "https://github.com/onevcat/Kingfisher.git",
-        "state": {
-          "branch": null,
-          "revision": "910d808ade2a576e1a292ceb458a6fa43f67f594",
-          "version": "5.14.0"
-        }
-      },
-      {
-        "package": "SnapKit",
-        "repositoryURL": "https://github.com/SnapKit/SnapKit.git",
-        "state": {
-          "branch": null,
-          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
-          "version": "5.0.1"
         }
       }
     ]
