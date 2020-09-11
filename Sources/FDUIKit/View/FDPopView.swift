@@ -41,7 +41,7 @@ open class FDPopView: UIView {
     
     @objc public func hide() {
         UIView.animate(withDuration: 0.25, animations: {
-            self.frame = CGRect.init(x: self.frame.origin.x, y: self.frame.size.height, width: self.frame.size.width, height: self.frame.size.height)
+            self.frame = CGRect.init(x: self.frame.origin.x, y: self.superview?.frame.size.height, width: self.frame.size.width, height: self.frame.size.height)
         }) { (finish) in
             self.shadowView.removeFromSuperview()
             self.removeFromSuperview()
