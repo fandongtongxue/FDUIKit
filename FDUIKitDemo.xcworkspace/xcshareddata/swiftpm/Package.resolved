@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FDUIKit",
+        "repositoryURL": "https://gitee.com/fandongtongxue/FDUIKit.git",
+        "state": {
+          "branch": "master",
+          "revision": "0df20adb0a9cd3897c34aee268baa569c262ea4f",
+          "version": null
+        }
+      },
+      {
+        "package": "Hue",
+        "repositoryURL": "https://gitee.com/fandongtongxue/Hue.git",
+        "state": {
+          "branch": null,
+          "revision": "b9d920cee4ba795fefb828d130744eee1e3d2feb",
+          "version": "5.0.1"
+        }
+      },
+      {
+        "package": "MJRefresh",
+        "repositoryURL": "https://gitee.com/fandongtongxue/MJRefresh.git",
+        "state": {
+          "branch": null,
+          "revision": "dd358c661436951ecf1d3f9292c54a0d22e95c2a",
+          "version": "3.7.2"
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://gitee.com/fandongtongxue/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "76dd4b49110b8624317fc128e7fa0d8a252018bc",
+          "version": "5.11.1"
+        }
+      },
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://gitee.com/fandongtongxue/SnapKit.git",
+        "state": {
+          "branch": null,
+          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
+          "version": "5.0.1"
+        }
+      },
+      {
+        "package": "SwiftMessages",
+        "repositoryURL": "https://gitee.com/fandongtongxue/SwiftMessages.git",
+        "state": {
+          "branch": null,
+          "revision": "c5026484ff555db961ec549162e4026b017aa6c5",
+          "version": "9.0.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
