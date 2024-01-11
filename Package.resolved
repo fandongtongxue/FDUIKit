@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "hue",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zenangst/Hue",
+      "state" : {
+        "revision" : "b9d920cee4ba795fefb828d130744eee1e3d2feb",
+        "version" : "5.0.1"
+      }
+    },
+    {
+      "identity" : "mjrefresh",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CoderMJLee/MJRefresh",
+      "state" : {
+        "revision" : "b9c5464d5480001b7e3b0cdf4c34f4a683d3acd5",
+        "version" : "3.7.6"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage",
+      "state" : {
+        "revision" : "59730af512c06fb569c119d737df4c1c499e001d",
+        "version" : "5.18.10"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit",
+      "state" : {
+        "revision" : "e74fe2a978d1216c3602b129447c7301573cc2d8",
+        "version" : "5.7.0"
+      }
+    },
+    {
+      "identity" : "swiftmessages",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftKickMobile/SwiftMessages",
+      "state" : {
+        "revision" : "62e12e138fc3eedf88c7553dd5d98712aa119f40",
+        "version" : "9.0.9"
+      }
+    }
+  ],
+  "version" : 2
+}
