@@ -17,11 +17,11 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://gitee.com/fandongtongxue_admin/SnapKit.git", from: "5.0.0"),
-        .package(url: "https://gitee.com/fandongtongxue_admin/SDWebImage.git", from: "5.0.0"),
-        .package(url: "https://gitee.com/fandongtongxue_admin/MJRefresh.git", from: "3.0.0"),
-        .package(url: "https://gitee.com/fandongtongxue_admin/Hue.git", from: "5.0.0"),
-        .package(url: "https://gitee.com/fandongtongxue_admin/SwiftMessages.git", from: "9.0.0"),
+        .package(url: "https://github.com/SnapKit/SnapKit", from: "5.0.0"),
+        .package(url: "https://github.com/SDWebImage/SDWebImage", from: "5.0.0"),
+        .package(url: "https://github.com/CoderMJLee/MJRefresh", from: "3.0.0"),
+        .package(url: "https://github.com/zenangst/Hue", from: "5.0.0"),
+        .package(url: "https://github.com/SwiftKickMobile/SwiftMessages", from: "9.0.0"),
         
     ],
     targets: [
